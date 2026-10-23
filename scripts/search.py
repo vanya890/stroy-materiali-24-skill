@@ -21,6 +21,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
@@ -252,6 +253,26 @@ def show_categories(query: Optional[str]) -> int:
     return 0
 
 
+def snapshot_age_note(value: Optional[str]) -> str:
+    """Подсказка, насколько снимок отстал от текущего момента."""
+    if not value:
+        return ""
+    try:
+        stamp = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return ""
+    if stamp.tzinfo is None:
+        stamp = stamp.replace(tzinfo=timezone.utc)
+    days = (datetime.now(timezone.utc) - stamp).days
+    if days <= 0:
+        return " (сегодня)"
+    if days == 1:
+        return " (1 день назад)"
+    if days < 14:
+        return f" ({days} дн. назад)"
+    return f" ({days} дн. назад — снимок устарел, обновите: python scripts/sync.py)"
+
+
 def show_stats() -> int:
     meta = load_json("meta.json") or {}
     if not meta:
@@ -259,7 +280,8 @@ def show_stats() -> int:
         return 2
     print(f"Магазин: {meta.get('shop')} ({meta.get('site')})")
     print(f"Источник: {meta.get('source')}")
-    print(f"Дата фида: {(meta.get('feed_date') or '—')[:10]}")
+    print(f"Дата фида (метка магазина): {meta.get('feed_date') or '—'}")
+    print(f"Снимок скачан: {meta.get('generated_at') or '—'}{snapshot_age_note(meta.get('generated_at'))}")
     print(f"Товаров: {meta.get('offers')}, категорий: {meta.get('categories')}")
     print(f"Цены (без доставки): {money(meta.get('price_min'))} – {money(meta.get('price_max'))}")
     print(f"Доступно по фиду: {meta.get('available_true')}")
