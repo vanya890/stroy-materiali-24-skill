@@ -29,15 +29,13 @@ jobs:
         id: sync
         run: |
           set -euo pipefail
-          OLD_FEED=$(git show HEAD:data/meta.json | python -c "import json,sys; print(json.load(sys.stdin).get('feed_date',''))")
           python scripts/sync.py
-          NEW_FEED=$(python -c "import json; print(json.load(open('data/meta.json', encoding='utf-8')).get('feed_date',''))")
-          if git diff --quiet -- data/products.jsonl && [ "$OLD_FEED" = "$NEW_FEED" ]; then
+          if git diff --quiet -- data/products.jsonl; then
             git checkout -- data references
             echo "Каталог не изменился — обновление не требуется."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "Каталог изменился: $OLD_FEED → $NEW_FEED"
+            echo "Каталог изменился: $(git diff --shortstat -- data/products.jsonl)"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
