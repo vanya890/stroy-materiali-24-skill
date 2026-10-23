@@ -1,0 +1,76 @@
+name: Sync catalog
+
+on:
+  schedule:
+    # Каждый вторник, 04:17 UTC
+    - cron: "17 4 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Sync feed
+        id: sync
+        run: |
+          set -euo pipefail
+          OLD_FEED=$(git show HEAD:data/meta.json | python -c "import json,sys; print(json.load(sys.stdin).get('feed_date',''))")
+          python scripts/sync.py
+          NEW_FEED=$(python -c "import json; print(json.load(open('data/meta.json', encoding='utf-8')).get('feed_date',''))")
+          if git diff --quiet -- data/products.jsonl && [ "$OLD_FEED" = "$NEW_FEED" ]; then
+            git checkout -- data references
+            echo "Каталог не изменился — обновление не требуется."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Каталог изменился: $OLD_FEED → $NEW_FEED"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify data
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+
+          root = pathlib.Path(".")
+          meta = json.loads((root / "data/meta.json").read_text(encoding="utf-8"))
+          rows = [json.loads(line) for line in (root / "data/products.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+          cats = json.loads((root / "data/categories.json").read_text(encoding="utf-8"))
+
+          errors = []
+          if len(rows) != meta["offers"]:
+              errors.append(f"offers: {len(rows)} != {meta['offers']}")
+          if len(cats["tree"]) == 0:
+              errors.append("пустое дерево категорий")
+          if not all(p.get("url") and p.get("name") for p in rows):
+              errors.append("есть товары без name/url")
+          if errors:
+              print("\n".join(errors))
+              sys.exit(1)
+          print(f"OK: {len(rows)} товаров, {meta['categories']} категорий, цены {meta['price_min']}–{meta['price_max']} ₽")
+          PY
+
+      - name: Commit and push
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data references/catalog.md
+          DATE=$(python -c 'import json; print(json.load(open("data/meta.json", encoding="utf-8"))["feed_date"][:10])')
+          git commit -m "chore: sync catalog ${DATE}"
+          git push

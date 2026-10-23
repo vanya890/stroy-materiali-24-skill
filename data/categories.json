@@ -1,0 +1,1093 @@
+{
+  "generated_at": "2026-10-23T13:04:08+00:00",
+  "feed_date": "2026-10-23T15:56:45+03:00",
+  "count": 98,
+  "tree": [
+    {
+      "id": "21374777",
+      "name": "Все товары",
+      "parent_id": "",
+      "path": "Все товары",
+      "direct_count": 106,
+      "product_count": 1532,
+      "price_min": 2,
+      "price_max": 20000,
+      "children": [
+        {
+          "id": "21374778",
+          "name": "Пенопласт",
+          "parent_id": "21374777",
+          "path": "Все товары / Пенопласт",
+          "direct_count": 18,
+          "product_count": 18,
+          "price_min": 60,
+          "price_max": 1400,
+          "children": []
+        },
+        {
+          "id": "21374779",
+          "name": "Краски. Лаки",
+          "parent_id": "21374777",
+          "path": "Все товары / Краски. Лаки",
+          "direct_count": 62,
+          "product_count": 206,
+          "price_min": 100,
+          "price_max": 7200,
+          "children": [
+            {
+              "id": "24018004",
+              "name": "Акриловые воднодисперсионные краски",
+              "parent_id": "21374779",
+              "path": "Все товары / Краски. Лаки / Акриловые воднодисперсионные краски",
+              "direct_count": 29,
+              "product_count": 29,
+              "price_min": 200,
+              "price_max": 4000,
+              "children": []
+            },
+            {
+              "id": "24018009",
+              "name": "Краски для дорожной разметки",
+              "parent_id": "21374779",
+              "path": "Все товары / Краски. Лаки / Краски для дорожной разметки",
+              "direct_count": 8,
+              "product_count": 8,
+              "price_min": 5000,
+              "price_max": 5000,
+              "children": []
+            },
+            {
+              "id": "24018018",
+              "name": "Лаки",
+              "parent_id": "21374779",
+              "path": "Все товары / Краски. Лаки / Лаки",
+              "direct_count": 13,
+              "product_count": 13,
+              "price_min": 150,
+              "price_max": 7200,
+              "children": []
+            },
+            {
+              "id": "24018023",
+              "name": "Эмали",
+              "parent_id": "21374779",
+              "path": "Все товары / Краски. Лаки / Эмали",
+              "direct_count": 60,
+              "product_count": 60,
+              "price_min": 250,
+              "price_max": 5800,
+              "children": []
+            },
+            {
+              "id": "24018070",
+              "name": "Колеры",
+              "parent_id": "21374779",
+              "path": "Все товары / Краски. Лаки / Колеры",
+              "direct_count": 34,
+              "product_count": 34,
+              "price_min": 100,
+              "price_max": 1900,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "21374780",
+          "name": "Листовые материалы",
+          "parent_id": "21374777",
+          "path": "Все товары / Листовые материалы",
+          "direct_count": 6,
+          "product_count": 158,
+          "price_min": 200,
+          "price_max": 11000,
+          "children": [
+            {
+              "id": "24005409",
+              "name": "Гипсокартон. Гипсоволокно",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / Гипсокартон. Гипсоволокно",
+              "direct_count": 12,
+              "product_count": 12,
+              "price_min": 380,
+              "price_max": 2900,
+              "children": []
+            },
+            {
+              "id": "24005510",
+              "name": "Фанера ФК влагостойкая для внутренних работ",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / Фанера ФК влагостойкая для внутренних работ",
+              "direct_count": 35,
+              "product_count": 35,
+              "price_min": 300,
+              "price_max": 3000,
+              "children": []
+            },
+            {
+              "id": "24005518",
+              "name": "Фанера ФСФ водостойкая",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / Фанера ФСФ водостойкая",
+              "direct_count": 80,
+              "product_count": 80,
+              "price_min": 600,
+              "price_max": 11000,
+              "children": []
+            },
+            {
+              "id": "24005522",
+              "name": "ДСП. ЛДСП",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / ДСП. ЛДСП",
+              "direct_count": 4,
+              "product_count": 4,
+              "price_min": 1500,
+              "price_max": 2500,
+              "children": []
+            },
+            {
+              "id": "24005528",
+              "name": "МДФ",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / МДФ",
+              "direct_count": 7,
+              "product_count": 7,
+              "price_min": 1200,
+              "price_max": 2900,
+              "children": []
+            },
+            {
+              "id": "24005531",
+              "name": "ДВП",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / ДВП",
+              "direct_count": 2,
+              "product_count": 2,
+              "price_min": 200,
+              "price_max": 200,
+              "children": []
+            },
+            {
+              "id": "24543726",
+              "name": "АЦЭИД",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / АЦЭИД",
+              "direct_count": 5,
+              "product_count": 5,
+              "price_min": 600,
+              "price_max": 1000,
+              "children": []
+            },
+            {
+              "id": "24543923",
+              "name": "ЦСП",
+              "parent_id": "21374780",
+              "path": "Все товары / Листовые материалы / ЦСП",
+              "direct_count": 7,
+              "product_count": 7,
+              "price_min": 2000,
+              "price_max": 3500,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "23400644",
+          "name": "Сетки",
+          "parent_id": "21374777",
+          "path": "Все товары / Сетки",
+          "direct_count": 0,
+          "product_count": 30,
+          "price_min": 120,
+          "price_max": 8000,
+          "children": [
+            {
+              "id": "24020541",
+              "name": "Сетка малярная",
+              "parent_id": "23400644",
+              "path": "Все товары / Сетки / Сетка малярная",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 750,
+              "price_max": 1500,
+              "children": []
+            },
+            {
+              "id": "24020545",
+              "name": "Сетка кладочная, дорожная",
+              "parent_id": "23400644",
+              "path": "Все товары / Сетки / Сетка кладочная, дорожная",
+              "direct_count": 10,
+              "product_count": 10,
+              "price_min": 120,
+              "price_max": 2400,
+              "children": []
+            },
+            {
+              "id": "24020555",
+              "name": "Сетка для защиты лесов",
+              "parent_id": "23400644",
+              "path": "Все товары / Сетки / Сетка для защиты лесов",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 3000,
+              "price_max": 8000,
+              "children": []
+            },
+            {
+              "id": "24020561",
+              "name": "Сетка оцинкованная",
+              "parent_id": "23400644",
+              "path": "Все товары / Сетки / Сетка оцинкованная",
+              "direct_count": 11,
+              "product_count": 11,
+              "price_min": 150,
+              "price_max": 5000,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "23400648",
+          "name": "Сухие строительные смеси",
+          "parent_id": "21374777",
+          "path": "Все товары / Сухие строительные смеси",
+          "direct_count": 14,
+          "product_count": 96,
+          "price_min": 55,
+          "price_max": 15000,
+          "children": [
+            {
+              "id": "24029769",
+              "name": "Цемент",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Цемент",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 100,
+              "price_max": 1400,
+              "children": []
+            },
+            {
+              "id": "24029771",
+              "name": "Пескобетон",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Пескобетон",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 220,
+              "price_max": 340,
+              "children": []
+            },
+            {
+              "id": "24029782",
+              "name": "Плиточный клей",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Плиточный клей",
+              "direct_count": 10,
+              "product_count": 10,
+              "price_min": 320,
+              "price_max": 1400,
+              "children": []
+            },
+            {
+              "id": "24029784",
+              "name": "Наливной пол",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Наливной пол",
+              "direct_count": 10,
+              "product_count": 10,
+              "price_min": 300,
+              "price_max": 950,
+              "children": []
+            },
+            {
+              "id": "24029788",
+              "name": "Добавка в раствор",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Добавка в раствор",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 200,
+              "price_max": 600,
+              "children": []
+            },
+            {
+              "id": "24029800",
+              "name": "Керамзит. Засыпка",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Керамзит. Засыпка",
+              "direct_count": 4,
+              "product_count": 4,
+              "price_min": 55,
+              "price_max": 260,
+              "children": []
+            },
+            {
+              "id": "24029849",
+              "name": "Шпаклёвка",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Шпаклёвка",
+              "direct_count": 24,
+              "product_count": 24,
+              "price_min": 100,
+              "price_max": 4400,
+              "children": []
+            },
+            {
+              "id": "24029938",
+              "name": "Грунт. Бетоноконтакт",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Грунт. Бетоноконтакт",
+              "direct_count": 10,
+              "product_count": 10,
+              "price_min": 400,
+              "price_max": 1300,
+              "children": []
+            },
+            {
+              "id": "24129594",
+              "name": "Кладочные смеси",
+              "parent_id": "23400648",
+              "path": "Все товары / Сухие строительные смеси / Кладочные смеси",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 310,
+              "price_max": 650,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "23400762",
+          "name": "Монтажные пены. Герметики",
+          "parent_id": "21374777",
+          "path": "Все товары / Монтажные пены. Герметики",
+          "direct_count": 4,
+          "product_count": 28,
+          "price_min": 150,
+          "price_max": 1500,
+          "children": [
+            {
+              "id": "24039714",
+              "name": "Пена мантажная для заполнения пустот",
+              "parent_id": "23400762",
+              "path": "Все товары / Монтажные пены. Герметики / Пена мантажная для заполнения пустот",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 300,
+              "price_max": 500,
+              "children": []
+            },
+            {
+              "id": "24039718",
+              "name": "Пена утеплитель",
+              "parent_id": "23400762",
+              "path": "Все товары / Монтажные пены. Герметики / Пена утеплитель",
+              "direct_count": 1,
+              "product_count": 1,
+              "price_min": 500,
+              "price_max": 500,
+              "children": []
+            },
+            {
+              "id": "24039720",
+              "name": "Клеевая пена",
+              "parent_id": "23400762",
+              "path": "Все товары / Монтажные пены. Герметики / Клеевая пена",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 450,
+              "price_max": 700,
+              "children": []
+            },
+            {
+              "id": "24039722",
+              "name": "Герметики",
+              "parent_id": "23400762",
+              "path": "Все товары / Монтажные пены. Герметики / Герметики",
+              "direct_count": 14,
+              "product_count": 14,
+              "price_min": 200,
+              "price_max": 1500,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "25171832",
+          "name": "Металлопрокат",
+          "parent_id": "21374777",
+          "path": "Все товары / Металлопрокат",
+          "direct_count": 50,
+          "product_count": 50,
+          "price_min": 18,
+          "price_max": 1530,
+          "children": []
+        },
+        {
+          "id": "23513900",
+          "name": "Доставка",
+          "parent_id": "21374777",
+          "path": "Все товары / Доставка",
+          "direct_count": 5,
+          "product_count": 5,
+          "price_min": null,
+          "price_max": null,
+          "children": []
+        },
+        {
+          "id": "23402578",
+          "name": "Инструмент",
+          "parent_id": "21374777",
+          "path": "Все товары / Инструмент",
+          "direct_count": 26,
+          "product_count": 326,
+          "price_min": 12,
+          "price_max": 20000,
+          "children": [
+            {
+              "id": "25354503",
+              "name": "Электроинструмент",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Электроинструмент",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 3200,
+              "price_max": 20000,
+              "children": []
+            },
+            {
+              "id": "24052460",
+              "name": "Валики",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Валики",
+              "direct_count": 10,
+              "product_count": 10,
+              "price_min": 80,
+              "price_max": 1200,
+              "children": []
+            },
+            {
+              "id": "24052462",
+              "name": "Кисти",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Кисти",
+              "direct_count": 17,
+              "product_count": 17,
+              "price_min": 40,
+              "price_max": 350,
+              "children": []
+            },
+            {
+              "id": "24052465",
+              "name": "Правила",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Правила",
+              "direct_count": 9,
+              "product_count": 9,
+              "price_min": 300,
+              "price_max": 2000,
+              "children": []
+            },
+            {
+              "id": "24052467",
+              "name": "Шпателя",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Шпателя",
+              "direct_count": 20,
+              "product_count": 20,
+              "price_min": 50,
+              "price_max": 700,
+              "children": []
+            },
+            {
+              "id": "24052470",
+              "name": "Вёдра. Тазы",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Вёдра. Тазы",
+              "direct_count": 8,
+              "product_count": 8,
+              "price_min": 100,
+              "price_max": 450,
+              "children": []
+            },
+            {
+              "id": "24052472",
+              "name": "Средства защиты",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Средства защиты",
+              "direct_count": 10,
+              "product_count": 10,
+              "price_min": 20,
+              "price_max": 650,
+              "children": []
+            },
+            {
+              "id": "24052474",
+              "name": "Уборочный инвентарь",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Уборочный инвентарь",
+              "direct_count": 7,
+              "product_count": 7,
+              "price_min": 100,
+              "price_max": 500,
+              "children": []
+            },
+            {
+              "id": "24052477",
+              "name": "Биты",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Биты",
+              "direct_count": 5,
+              "product_count": 5,
+              "price_min": 25,
+              "price_max": 90,
+              "children": []
+            },
+            {
+              "id": "24052481",
+              "name": "Буры",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Буры",
+              "direct_count": 10,
+              "product_count": 10,
+              "price_min": 60,
+              "price_max": 1850,
+              "children": []
+            },
+            {
+              "id": "24052483",
+              "name": "Свёрла",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Свёрла",
+              "direct_count": 43,
+              "product_count": 43,
+              "price_min": 40,
+              "price_max": 850,
+              "children": []
+            },
+            {
+              "id": "24052493",
+              "name": "Диски отрезные и шлифовальные",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Диски отрезные и шлифовальные",
+              "direct_count": 27,
+              "product_count": 27,
+              "price_min": 30,
+              "price_max": 2500,
+              "children": []
+            },
+            {
+              "id": "24052497",
+              "name": "Коронки",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Коронки",
+              "direct_count": 11,
+              "product_count": 11,
+              "price_min": 300,
+              "price_max": 1400,
+              "children": []
+            },
+            {
+              "id": "24052499",
+              "name": "Монтажные пистолеты",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Монтажные пистолеты",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 200,
+              "price_max": 1100,
+              "children": []
+            },
+            {
+              "id": "24052501",
+              "name": "Ножи",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Ножи",
+              "direct_count": 5,
+              "product_count": 5,
+              "price_min": 50,
+              "price_max": 150,
+              "children": []
+            },
+            {
+              "id": "24052504",
+              "name": "Миксеры",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Миксеры",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 350,
+              "price_max": 550,
+              "children": []
+            },
+            {
+              "id": "24052506",
+              "name": "Тёрки. Полутёры",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Тёрки. Полутёры",
+              "direct_count": 8,
+              "product_count": 8,
+              "price_min": 150,
+              "price_max": 900,
+              "children": []
+            },
+            {
+              "id": "24052510",
+              "name": "Абразивные материалы",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Абразивные материалы",
+              "direct_count": 18,
+              "product_count": 18,
+              "price_min": 150,
+              "price_max": 400,
+              "children": []
+            },
+            {
+              "id": "24052513",
+              "name": "Уровни",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Уровни",
+              "direct_count": 12,
+              "product_count": 12,
+              "price_min": 150,
+              "price_max": 1000,
+              "children": []
+            },
+            {
+              "id": "24052515",
+              "name": "Разметочный инструмент",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Разметочный инструмент",
+              "direct_count": 8,
+              "product_count": 8,
+              "price_min": 12,
+              "price_max": 350,
+              "children": []
+            },
+            {
+              "id": "24052546",
+              "name": "Ножовки",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Ножовки",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 100,
+              "price_max": 900,
+              "children": []
+            },
+            {
+              "id": "24052548",
+              "name": "Система выравнивания пола",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Система выравнивания пола",
+              "direct_count": 16,
+              "product_count": 16,
+              "price_min": 40,
+              "price_max": 1000,
+              "children": []
+            },
+            {
+              "id": "24052550",
+              "name": "Шарнирно-Губцывые",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Шарнирно-Губцывые",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 350,
+              "price_max": 450,
+              "children": []
+            },
+            {
+              "id": "24052554",
+              "name": "Отвёртки",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Отвёртки",
+              "direct_count": 4,
+              "product_count": 4,
+              "price_min": 100,
+              "price_max": 550,
+              "children": []
+            },
+            {
+              "id": "24052565",
+              "name": "Степлеры",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Степлеры",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 50,
+              "price_max": 650,
+              "children": []
+            },
+            {
+              "id": "24052578",
+              "name": "Рубанки",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Рубанки",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 400,
+              "price_max": 1100,
+              "children": []
+            },
+            {
+              "id": "24052580",
+              "name": "Ударные инструменты",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Ударные инструменты",
+              "direct_count": 9,
+              "product_count": 9,
+              "price_min": 300,
+              "price_max": 550,
+              "children": []
+            },
+            {
+              "id": "24052585",
+              "name": "Лопаты",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Лопаты",
+              "direct_count": 2,
+              "product_count": 2,
+              "price_min": 450,
+              "price_max": 450,
+              "children": []
+            },
+            {
+              "id": "24052587",
+              "name": "Угольники",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Угольники",
+              "direct_count": 0,
+              "product_count": 0,
+              "price_min": null,
+              "price_max": null,
+              "children": []
+            },
+            {
+              "id": "24052590",
+              "name": "Рулетки",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Рулетки",
+              "direct_count": 4,
+              "product_count": 4,
+              "price_min": 200,
+              "price_max": 450,
+              "children": []
+            },
+            {
+              "id": "24052592",
+              "name": "Отвесы",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Отвесы",
+              "direct_count": 0,
+              "product_count": 0,
+              "price_min": null,
+              "price_max": null,
+              "children": []
+            },
+            {
+              "id": "24052605",
+              "name": "Игольчатые валики",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Игольчатые валики",
+              "direct_count": 1,
+              "product_count": 1,
+              "price_min": 650,
+              "price_max": 650,
+              "children": []
+            },
+            {
+              "id": "24052607",
+              "name": "Зубило для перфораторов",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Зубило для перфораторов",
+              "direct_count": 0,
+              "product_count": 0,
+              "price_min": null,
+              "price_max": null,
+              "children": []
+            },
+            {
+              "id": "24052613",
+              "name": "Кельмы",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Кельмы",
+              "direct_count": 6,
+              "product_count": 6,
+              "price_min": 150,
+              "price_max": 500,
+              "children": []
+            },
+            {
+              "id": "24052615",
+              "name": "Сварочные электроды",
+              "parent_id": "23402578",
+              "path": "Все товары / Инструмент / Сварочные электроды",
+              "direct_count": 3,
+              "product_count": 3,
+              "price_min": 400,
+              "price_max": 2000,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "23402580",
+          "name": "Маяки. Уголки",
+          "parent_id": "21374777",
+          "path": "Все товары / Маяки. Уголки",
+          "direct_count": 10,
+          "product_count": 10,
+          "price_min": 50,
+          "price_max": 380,
+          "children": []
+        },
+        {
+          "id": "23402584",
+          "name": "Монтажные клея. Клей",
+          "parent_id": "21374777",
+          "path": "Все товары / Монтажные клея. Клей",
+          "direct_count": 28,
+          "product_count": 28,
+          "price_min": 120,
+          "price_max": 9300,
+          "children": []
+        },
+        {
+          "id": "23402621",
+          "name": "Гидроизоляция",
+          "parent_id": "21374777",
+          "path": "Все товары / Гидроизоляция",
+          "direct_count": 30,
+          "product_count": 30,
+          "price_min": 550,
+          "price_max": 9000,
+          "children": []
+        },
+        {
+          "id": "23414425",
+          "name": "Утеплитель",
+          "parent_id": "21374777",
+          "path": "Все товары / Утеплитель",
+          "direct_count": 68,
+          "product_count": 68,
+          "price_min": 250,
+          "price_max": 7205,
+          "children": []
+        },
+        {
+          "id": "23402582",
+          "name": "Грунтовка. Бетоноконтакт",
+          "parent_id": "21374777",
+          "path": "Все товары / Грунтовка. Бетоноконтакт",
+          "direct_count": 8,
+          "product_count": 8,
+          "price_min": 150,
+          "price_max": 2900,
+          "children": []
+        },
+        {
+          "id": "23414627",
+          "name": "Плёнки. Тенты",
+          "parent_id": "21374777",
+          "path": "Все товары / Плёнки. Тенты",
+          "direct_count": 35,
+          "product_count": 35,
+          "price_min": 12,
+          "price_max": 10500,
+          "children": []
+        },
+        {
+          "id": "23415896",
+          "name": "Крепеж для гипсокартона",
+          "parent_id": "21374777",
+          "path": "Все товары / Крепеж для гипсокартона",
+          "direct_count": 26,
+          "product_count": 26,
+          "price_min": 4,
+          "price_max": 480,
+          "children": []
+        },
+        {
+          "id": "23416289",
+          "name": "Клейкие ленты",
+          "parent_id": "21374777",
+          "path": "Все товары / Клейкие ленты",
+          "direct_count": 18,
+          "product_count": 18,
+          "price_min": 40,
+          "price_max": 2200,
+          "children": []
+        },
+        {
+          "id": "23416444",
+          "name": "Растворитель",
+          "parent_id": "21374777",
+          "path": "Все товары / Растворитель",
+          "direct_count": 17,
+          "product_count": 17,
+          "price_min": 100,
+          "price_max": 2400,
+          "children": []
+        },
+        {
+          "id": "23426424",
+          "name": "Электрика",
+          "parent_id": "21374777",
+          "path": "Все товары / Электрика",
+          "direct_count": 28,
+          "product_count": 28,
+          "price_min": 8,
+          "price_max": 1200,
+          "children": []
+        },
+        {
+          "id": "23428711",
+          "name": "Пиломатериалы",
+          "parent_id": "21374777",
+          "path": "Все товары / Пиломатериалы",
+          "direct_count": 81,
+          "product_count": 127,
+          "price_min": 50,
+          "price_max": 9273,
+          "children": [
+            {
+              "id": "25619429",
+              "name": "Мебельные щиты",
+              "parent_id": "23428711",
+              "path": "Все товары / Пиломатериалы / Мебельные щиты",
+              "direct_count": 46,
+              "product_count": 46,
+              "price_min": 1140,
+              "price_max": 9273,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "23431010",
+          "name": "Метизы. Крепёж",
+          "parent_id": "21374777",
+          "path": "Все товары / Метизы. Крепёж",
+          "direct_count": 68,
+          "product_count": 68,
+          "price_min": 3,
+          "price_max": 1400,
+          "children": []
+        },
+        {
+          "id": "23512671",
+          "name": "Блоки. Кирпичи",
+          "parent_id": "21374777",
+          "path": "Все товары / Блоки. Кирпичи",
+          "direct_count": 27,
+          "product_count": 27,
+          "price_min": 24,
+          "price_max": 440,
+          "children": []
+        },
+        {
+          "id": "23528638",
+          "name": "Пароизоляция",
+          "parent_id": "21374777",
+          "path": "Все товары / Пароизоляция",
+          "direct_count": 5,
+          "product_count": 5,
+          "price_min": 250,
+          "price_max": 3200,
+          "children": []
+        },
+        {
+          "id": "23540240",
+          "name": "Шумоизоляция",
+          "parent_id": "21374777",
+          "path": "Все товары / Шумоизоляция",
+          "direct_count": 2,
+          "product_count": 2,
+          "price_min": 1500,
+          "price_max": 2500,
+          "children": []
+        },
+        {
+          "id": "23752475",
+          "name": "Малярные сетки. Стеклохолсты",
+          "parent_id": "21374777",
+          "path": "Все товары / Малярные сетки. Стеклохолсты",
+          "direct_count": 12,
+          "product_count": 12,
+          "price_min": 1900,
+          "price_max": 5800,
+          "children": []
+        },
+        {
+          "id": "24221887",
+          "name": "VK Сервера ★ RussianPro Unturned ★",
+          "parent_id": "21374777",
+          "path": "Все товары / VK Сервера ★ RussianPro Unturned ★",
+          "direct_count": 0,
+          "product_count": 0,
+          "price_min": null,
+          "price_max": null,
+          "children": []
+        },
+        {
+          "id": "24221888",
+          "name": "VK Ботяра",
+          "parent_id": "21374777",
+          "path": "Все товары / VK Ботяра",
+          "direct_count": 0,
+          "product_count": 0,
+          "price_min": null,
+          "price_max": null,
+          "children": []
+        },
+        {
+          "id": "24221889",
+          "name": "VK Мнøгø кøтикøв нĕ быßæт",
+          "parent_id": "21374777",
+          "path": "Все товары / VK Мнøгø кøтикøв нĕ быßæт",
+          "direct_count": 0,
+          "product_count": 0,
+          "price_min": null,
+          "price_max": null,
+          "children": []
+        },
+        {
+          "id": "24223025",
+          "name": "VK Stroy-Materiali-24",
+          "parent_id": "21374777",
+          "path": "Все товары / VK Stroy-Materiali-24",
+          "direct_count": 0,
+          "product_count": 0,
+          "price_min": null,
+          "price_max": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "24029780",
+      "name": "Гипсовая штукатурка",
+      "parent_id": "",
+      "path": "Гипсовая штукатурка",
+      "direct_count": 14,
+      "product_count": 14,
+      "price_min": 80,
+      "price_max": 950,
+      "children": []
+    },
+    {
+      "id": "24029774",
+      "name": "Цементная штукатурка",
+      "parent_id": "",
+      "path": "Цементная штукатурка",
+      "direct_count": 8,
+      "product_count": 8,
+      "price_min": 190,
+      "price_max": 720,
+      "children": []
+    }
+  ]
+}

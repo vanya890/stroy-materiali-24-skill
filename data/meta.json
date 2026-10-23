@@ -1,0 +1,17 @@
+{
+  "shop": "Stroy-Materiali-24",
+  "legal_name": "Stroy-Materiali-24.ru",
+  "site": "https://stroy-materiali-24.ru",
+  "platform": "inSales",
+  "currency": "RUB",
+  "source": "https://stroy-materiali-24.ru/marketplace/101282.xml",
+  "source_note": "скачано из сети",
+  "feed_date": "2026-10-23T15:56:45+03:00",
+  "generated_at": "2026-10-23T13:04:08+00:00",
+  "offers": 1554,
+  "categories": 98,
+  "price_min": 2,
+  "price_max": 20000,
+  "available_true": 1554,
+  "images": 3067
+}

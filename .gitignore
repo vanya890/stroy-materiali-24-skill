@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Редакторы
+.idea/
+.vscode/
+*.swp
+
+# Временные файлы синка
+feed.xml
+tmp_*.py
+*.log
+
+# Локальные настройки агентов
+.claude/settings.local.json
