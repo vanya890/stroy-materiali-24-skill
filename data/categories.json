@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T09:47:32+00:00",
-  "feed_date": "2026-10-27T12:47:28+03:00",
+  "generated_at": "2026-11-03T11:53:58+00:00",
+  "feed_date": "2026-11-03T14:53:56+03:00",
   "count": 98,
   "tree": [
     {
@@ -9,7 +9,7 @@
       "parent_id": "",
       "path": "Все товары",
       "direct_count": 106,
-      "product_count": 1532,
+      "product_count": 1521,
       "price_min": 2,
       "price_max": 20000,
       "children": [
@@ -30,7 +30,7 @@
           "parent_id": "21374777",
           "path": "Все товары / Краски. Лаки",
           "direct_count": 62,
-          "product_count": 206,
+          "product_count": 207,
           "price_min": 100,
           "price_max": 7200,
           "children": [
@@ -50,9 +50,9 @@
               "name": "Краски для дорожной разметки",
               "parent_id": "21374779",
               "path": "Все товары / Краски. Лаки / Краски для дорожной разметки",
-              "direct_count": 8,
-              "product_count": 8,
-              "price_min": 5000,
+              "direct_count": 9,
+              "product_count": 9,
+              "price_min": 1000,
               "price_max": 5000,
               "children": []
             },
@@ -442,7 +442,7 @@
           "parent_id": "21374777",
           "path": "Все товары / Инструмент",
           "direct_count": 26,
-          "product_count": 326,
+          "product_count": 314,
           "price_min": 12,
           "price_max": 20000,
           "children": [
@@ -561,8 +561,8 @@
               "name": "Свёрла",
               "parent_id": "23402578",
               "path": "Все товары / Инструмент / Свёрла",
-              "direct_count": 43,
-              "product_count": 43,
+              "direct_count": 31,
+              "product_count": 31,
               "price_min": 40,
               "price_max": 850,
               "children": []
