@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T12:35:40+00:00",
-  "feed_date": "2026-11-10T15:35:38+03:00",
+  "generated_at": "2026-11-17T13:18:29+00:00",
+  "feed_date": "2026-11-17T16:18:26+03:00",
   "count": 98,
   "tree": [
     {
@@ -8,7 +8,7 @@
       "name": "Все товары",
       "parent_id": "",
       "path": "Все товары",
-      "direct_count": 106,
+      "direct_count": 105,
       "product_count": 1521,
       "price_min": 2,
       "price_max": 20000,
@@ -253,7 +253,7 @@
           "parent_id": "21374777",
           "path": "Все товары / Сухие строительные смеси",
           "direct_count": 14,
-          "product_count": 96,
+          "product_count": 97,
           "price_min": 55,
           "price_max": 15000,
           "children": [
@@ -306,8 +306,8 @@
               "name": "Добавка в раствор",
               "parent_id": "23400648",
               "path": "Все товары / Сухие строительные смеси / Добавка в раствор",
-              "direct_count": 6,
-              "product_count": 6,
+              "direct_count": 7,
+              "product_count": 7,
               "price_min": 200,
               "price_max": 600,
               "children": []

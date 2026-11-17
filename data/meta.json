@@ -6,12 +6,12 @@
   "currency": "RUB",
   "source": "https://stroy-materiali-24.ru/marketplace/101282.xml",
   "source_note": "скачано из сети",
-  "feed_date": "2026-11-10T15:35:38+03:00",
-  "generated_at": "2026-11-10T12:35:40+00:00",
+  "feed_date": "2026-11-17T16:18:26+03:00",
+  "generated_at": "2026-11-17T13:18:29+00:00",
   "offers": 1543,
   "categories": 98,
   "price_min": 2,
   "price_max": 20000,
   "available_true": 1543,
-  "images": 3358
+  "images": 3449
 }
